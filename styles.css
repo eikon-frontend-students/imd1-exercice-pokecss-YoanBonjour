@@ -1,0 +1,79 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(243, 227, 175);
+}
+.cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin: 30px;
+}
+
+.pokemon-card {
+  display: flex;
+  flex-direction: column;
+  border-radius: 20px;
+  align-items: center;
+  border: 10px rgb(197, 197, 197) solid;
+  background-color: white;
+}
+
+.pokemon-card-plante {
+  border: 10px rgb(25, 174, 15) solid;
+}
+
+.pokemon-card-feu {
+  border: 10px rgb(235, 143, 39) solid;
+}
+
+.pokemon-card-eau {
+  border: 10px rgb(60, 164, 255) solid;
+}
+
+.pokemon-stats {
+  margin: 16px;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+.pokemon-name {
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+.pokemon-id {
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+  margin: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+
+:hover.pokemon-card {
+  transform: scale(1.1) rotate(2deg);
+  box-shadow: 10px 10px 10px rgba(00, 00, 00, 0.35);
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-size: 50px;
+}
+
+.numbers {
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+  padding: 3px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.pokemon-stat {
+  margin: 8px;
+}
